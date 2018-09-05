@@ -25,3 +25,4 @@ y_train = sc_y.fit_transform(y_train)"""
 # Fitting Linear Regresssion to the dataset
 from sklearn.linear_model import LinearRegression
 lin_reg = LinearRegression()
+lin_reg.fit(X, y)
