@@ -39,3 +39,7 @@ plt.scatter(X, y, color="red")
 
 # Visualising the Linear Regression results
 plt.plot(X, lin_reg.predict(X), color='blue')
+plt.title("Truth or Bluff(Linear Regression)")
+plt.xlabel("Position level")
+plt.ylabel("Salary")
+plt.show()
