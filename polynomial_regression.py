@@ -36,3 +36,6 @@ lin_reg_2.fit(X_poly, y)
 
 # Visualising the real data
 plt.scatter(X, y, color="red")
+
+# Visualising the Linear Regression results
+plt.plot(X, lin_reg.predict(X), color='blue')
